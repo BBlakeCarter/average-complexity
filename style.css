@@ -1,0 +1,257 @@
+@font-face {
+	font-family: MullerLight;
+	src: url("MullerLight.ttf");
+}
+
+@font-face {
+	font-family: MullerRegular;
+	src: url("MullerRegular.ttf");
+}
+
+@font-face {
+	font-family: MullerBlack;
+	src: url("Fontfabric - MullerBlack.otf");
+}
+body {
+	font-family: MullerLight;
+	padding: 0;
+	margin: 0;
+	background-color: #ECECEC;
+	
+}
+
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+.header {
+
+	width: 100%;
+	position: relative;
+	padding: 40px 253px 72px 251px ;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	
+}
+
+.header_inner {
+
+	font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+
+	display: flex;
+	
+
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+
+.container {
+	    	
+	display: flex; 
+	justify-content: space-between;   
+	align-items: center;	
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+	
+}
+
+.container_link {
+
+	font-weight: 400 ;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+.container_link1 {
+
+	font-weight: 700 ;
+
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+.header_logo {
+	width: 109px;
+	height: 52.15px;
+	margin-right: 72px;
+
+}
+
+.nav {
+
+	font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+
+	display: flex; 
+	justify-content: space-between;   
+	align-items: center;
+	text-transform: uppercase ;
+}
+
+
+
+
+.nav_link {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+	position: relative;
+	text-decoration: none;
+	color: #000;
+	
+}
+
+.nav_num_link {
+	font-weight: 400;
+	margin-right: 22px;
+}
+
+
+
+
+.card {
+
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: center;
+	        justify-content: center;
+
+	width: 460px;
+	height: 612px;
+	max-width: 460px;
+	max-height: 612px;
+	
+
+	padding: 0px ;
+	margin: 0px auto 151px;
+	text-align: center;
+	
+	
+	background-color: #FFF ;
+	box-shadow: 0px 4px 10px #CCC ;
+	border: 1px;
+	border-radius: 15px;
+	        
+}
+
+.card-title{
+	font-family: MullerRegular;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 40px;
+	line-height: 40px;
+	text-align: center;
+	
+	
+	width: 281px;
+	height: 100px;
+	top: 0;
+	max-width: 281px;
+	max-height: 124px;
+	
+	margin: 25px auto 0 ;
+		
+	
+}
+
+.card_input {
+
+	width: 320px;
+	height: 52px;
+	margin: 12px auto;
+	
+	opacity: 0.5;
+	border: 0px;
+	background-color: #F5F3F3;
+	text-decoration: none;
+}
+
+
+.btn {
+	position: relative;
+	font-size: 18px;
+	font-weight: 100;
+	
+	width: 320px;
+	height: 52px;
+	margin: 0px auto 15px;
+	
+	background-color: #202020;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	border:0px;
+	
+	
+}
+
+.btn_text {
+
+	margin: 0 auto;
+	color: #FFF;
+	opacity: 0.95;
+	text-decoration: none;
+}
+
+
+.card-text {
+	width: 350px;
+	height: 25px;
+	max-width: 400px;
+	max-height: 80px;
+	left: 571px;
+	top: 613px;
+	margin: 0 auto 45px ;
+	
+	
+	
+	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+
+	color: #909090;
+}
+
+
+.card_link {
+
+	
+	font-weight: bold;
+	font-size: 18px;
+
+	
+	vertical-align: top;
+	
+	text-decoration: none;
+	color: #000;
+
+	
+	
+	
+}
+
